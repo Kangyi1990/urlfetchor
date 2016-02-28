@@ -1,0 +1,231 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'c:\\Workspace\\test\\urlfetchor\\urlfetchor',
+6 verbose install   [ 'body-parser',
+6 verbose install     'cookie-parser',
+6 verbose install     'debug',
+6 verbose install     'express',
+6 verbose install     'jade',
+6 verbose install     'morgan',
+6 verbose install     'serve-favicon',
+6 verbose install     'request',
+6 verbose install     'handlebars',
+6 verbose install     'express-handlebars',
+6 verbose install     'mogoskin',
+6 verbose install     'node-uuid',
+6 verbose install     'valid-url',
+6 verbose install     'q' ] ]
+7 info preinstall urlfetchor@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping body-parser@~1.10.2 c:\Workspace\test\urlfetchor\urlfetchor
+10 verbose already installed skipping cookie-parser@~1.3.3 c:\Workspace\test\urlfetchor\urlfetchor
+11 verbose already installed skipping debug@~2.1.1 c:\Workspace\test\urlfetchor\urlfetchor
+12 verbose already installed skipping express@~4.11.1 c:\Workspace\test\urlfetchor\urlfetchor
+13 verbose already installed skipping jade@~1.9.1 c:\Workspace\test\urlfetchor\urlfetchor
+14 verbose already installed skipping morgan@~1.5.1 c:\Workspace\test\urlfetchor\urlfetchor
+15 verbose already installed skipping serve-favicon@~2.2.0 c:\Workspace\test\urlfetchor\urlfetchor
+16 verbose already installed skipping request@2.69.0 c:\Workspace\test\urlfetchor\urlfetchor
+17 verbose already installed skipping handlebars@2.0.0-alpha.4 c:\Workspace\test\urlfetchor\urlfetchor
+18 verbose already installed skipping express-handlebars@3.0.0 c:\Workspace\test\urlfetchor\urlfetchor
+19 verbose cache add [ 'mogoskin@2.0.3', null ]
+20 verbose cache add name=undefined spec="mogoskin@2.0.3" args=["mogoskin@2.0.3",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'mogoskin@2.0.3',
+21 verbose parsed url   path: 'mogoskin@2.0.3',
+21 verbose parsed url   href: 'mogoskin@2.0.3' }
+22 verbose cache add [ 'node-uuid@1.4.7', null ]
+23 verbose cache add name=undefined spec="node-uuid@1.4.7" args=["node-uuid@1.4.7",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'node-uuid@1.4.7',
+24 verbose parsed url   path: 'node-uuid@1.4.7',
+24 verbose parsed url   href: 'node-uuid@1.4.7' }
+25 verbose cache add [ 'valid-url@1.0.9', null ]
+26 verbose cache add name=undefined spec="valid-url@1.0.9" args=["valid-url@1.0.9",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'valid-url@1.0.9',
+27 verbose parsed url   path: 'valid-url@1.0.9',
+27 verbose parsed url   href: 'valid-url@1.0.9' }
+28 verbose already installed skipping q@1.4.1 c:\Workspace\test\urlfetchor\urlfetchor
+29 verbose cache add name="mogoskin" spec="2.0.3" args=["mogoskin","2.0.3"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '2.0.3',
+30 verbose parsed url   path: '2.0.3',
+30 verbose parsed url   href: '2.0.3' }
+31 verbose addNamed [ 'mogoskin', '2.0.3' ]
+32 verbose addNamed [ '2.0.3', '2.0.3' ]
+33 verbose cache add name="node-uuid" spec="1.4.7" args=["node-uuid","1.4.7"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '1.4.7',
+34 verbose parsed url   path: '1.4.7',
+34 verbose parsed url   href: '1.4.7' }
+35 verbose addNamed [ 'node-uuid', '1.4.7' ]
+36 verbose addNamed [ '1.4.7', '1.4.7' ]
+37 verbose cache add name="valid-url" spec="1.0.9" args=["valid-url","1.0.9"]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '1.0.9',
+38 verbose parsed url   path: '1.0.9',
+38 verbose parsed url   href: '1.0.9' }
+39 verbose addNamed [ 'valid-url', '1.0.9' ]
+40 verbose addNamed [ '1.0.9', '1.0.9' ]
+41 silly lockFile a0add2b7-mogoskin-2-0-3 mogoskin@2.0.3
+42 verbose lock mogoskin@2.0.3 C:\Users\Kangyi Zhang\AppData\Roaming\npm-cache\a0add2b7-mogoskin-2-0-3.lock
+43 silly lockFile f9bba481-node-uuid-1-4-7 node-uuid@1.4.7
+44 verbose lock node-uuid@1.4.7 C:\Users\Kangyi Zhang\AppData\Roaming\npm-cache\f9bba481-node-uuid-1-4-7.lock
+45 silly lockFile c7ae420a-valid-url-1-0-9 valid-url@1.0.9
+46 verbose lock valid-url@1.0.9 C:\Users\Kangyi Zhang\AppData\Roaming\npm-cache\c7ae420a-valid-url-1-0-9.lock
+47 verbose request where is /mogoskin
+48 verbose request registry https://registry.npmjs.org/
+49 verbose request id 7bf8074a8d162fd2
+50 verbose url raw /mogoskin
+51 verbose url resolving [ 'https://registry.npmjs.org/', './mogoskin' ]
+52 verbose url resolved https://registry.npmjs.org/mogoskin
+53 verbose request where is https://registry.npmjs.org/mogoskin
+54 info trying registry request attempt 1 at 18:01:20
+55 http GET https://registry.npmjs.org/mogoskin
+56 verbose request where is /valid-url
+57 verbose request registry https://registry.npmjs.org/
+58 verbose url raw /valid-url
+59 verbose url resolving [ 'https://registry.npmjs.org/', './valid-url' ]
+60 verbose url resolved https://registry.npmjs.org/valid-url
+61 verbose request where is https://registry.npmjs.org/valid-url
+62 info trying registry request attempt 1 at 18:01:20
+63 http GET https://registry.npmjs.org/valid-url
+64 verbose request where is /node-uuid
+65 verbose request registry https://registry.npmjs.org/
+66 verbose url raw /node-uuid
+67 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
+68 verbose url resolved https://registry.npmjs.org/node-uuid
+69 verbose request where is https://registry.npmjs.org/node-uuid
+70 info trying registry request attempt 1 at 18:01:20
+71 verbose etag "DWICNTBIN5P6G7SMUQJLGJP3Z"
+72 http GET https://registry.npmjs.org/node-uuid
+73 http 304 https://registry.npmjs.org/node-uuid
+74 silly registry.get cb [ 304,
+74 silly registry.get   { date: 'Sun, 28 Feb 2016 02:00:56 GMT',
+74 silly registry.get     via: '1.1 varnish',
+74 silly registry.get     'cache-control': 'max-age=300',
+74 silly registry.get     etag: '"DWICNTBIN5P6G7SMUQJLGJP3Z"',
+74 silly registry.get     age: '234',
+74 silly registry.get     connection: 'keep-alive',
+74 silly registry.get     'x-served-by': 'cache-lax1435-LAX',
+74 silly registry.get     'x-cache': 'HIT',
+74 silly registry.get     'x-cache-hits': '5',
+74 silly registry.get     'x-timer': 'S1456624856.166046,VS0,VE0',
+74 silly registry.get     vary: 'Accept' } ]
+75 verbose etag https://registry.npmjs.org/node-uuid from cache
+76 silly lockFile f9bba481-node-uuid-1-4-7 node-uuid@1.4.7
+77 silly lockFile f9bba481-node-uuid-1-4-7 node-uuid@1.4.7
+78 http 200 https://registry.npmjs.org/valid-url
+79 silly registry.get cb [ 200,
+79 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+79 silly registry.get     etag: '"82U76JU10RWN3FQ7ZXXWXE5WK"',
+79 silly registry.get     'content-type': 'application/json',
+79 silly registry.get     'cache-control': 'max-age=300',
+79 silly registry.get     'content-length': '37149',
+79 silly registry.get     'accept-ranges': 'bytes',
+79 silly registry.get     date: 'Sun, 28 Feb 2016 02:00:56 GMT',
+79 silly registry.get     via: '1.1 varnish',
+79 silly registry.get     age: '238',
+79 silly registry.get     connection: 'keep-alive',
+79 silly registry.get     'x-served-by': 'cache-lax1431-LAX',
+79 silly registry.get     'x-cache': 'HIT',
+79 silly registry.get     'x-cache-hits': '1',
+79 silly registry.get     'x-timer': 'S1456624856.179026,VS0,VE1',
+79 silly registry.get     vary: 'Accept' } ]
+80 silly lockFile 35f76cb4-rg-valid-url-valid-url-1-0-9-tgz https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz
+81 verbose lock https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz C:\Users\Kangyi Zhang\AppData\Roaming\npm-cache\35f76cb4-rg-valid-url-valid-url-1-0-9-tgz.lock
+82 verbose addRemoteTarball [ 'https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz',
+82 verbose addRemoteTarball   '1c14479b40f1397a75782f115e4086447433a200' ]
+83 info retry fetch attempt 1 at 18:01:21
+84 verbose fetch to= C:\Users\KANGYI~1\AppData\Local\Temp\npm-5648-wSi2icji\registry.npmjs.org\valid-url\-\valid-url-1.0.9.tgz
+85 http GET https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz
+86 http 404 https://registry.npmjs.org/mogoskin
+87 silly registry.get cb [ 404,
+87 silly registry.get   { 'content-type': 'application/json',
+87 silly registry.get     'cache-control': 'max-age=0',
+87 silly registry.get     'content-length': '2',
+87 silly registry.get     'accept-ranges': 'bytes',
+87 silly registry.get     date: 'Sun, 28 Feb 2016 02:00:56 GMT',
+87 silly registry.get     via: '1.1 varnish',
+87 silly registry.get     age: '0',
+87 silly registry.get     connection: 'keep-alive',
+87 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+87 silly registry.get     'x-cache': 'MISS',
+87 silly registry.get     'x-cache-hits': '0',
+87 silly registry.get     'x-timer': 'S1456624856.177795,VS0,VE57' } ]
+88 silly lockFile a0add2b7-mogoskin-2-0-3 mogoskin@2.0.3
+89 silly lockFile a0add2b7-mogoskin-2-0-3 mogoskin@2.0.3
+90 http 200 https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz
+91 silly lockFile 35f76cb4-rg-valid-url-valid-url-1-0-9-tgz https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz
+92 silly lockFile 35f76cb4-rg-valid-url-valid-url-1-0-9-tgz https://registry.npmjs.org/valid-url/-/valid-url-1.0.9.tgz
+93 silly lockFile c7ae420a-valid-url-1-0-9 valid-url@1.0.9
+94 silly lockFile c7ae420a-valid-url-1-0-9 valid-url@1.0.9
+95 error 404 Not Found
+95 error 404
+95 error 404 'mogoskin' is not in the npm registry.
+95 error 404 You should bug the author to publish it
+95 error 404 It was specified as a dependency of 'urlfetchor'
+95 error 404
+95 error 404 Note that you can also install from a
+95 error 404 tarball, folder, or http url, or git url.
+96 error System Windows_NT 6.2.9200
+97 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+98 error cwd c:\Workspace\test\urlfetchor\urlfetchor
+99 error node -v v0.10.36
+100 error npm -v 1.4.28
+101 error code E404
+102 verbose exit [ 1, true ]
